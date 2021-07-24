@@ -1,0 +1,32 @@
+{
+  "ignition": {
+    "config": {
+      "replace": {
+        "source": null,
+        "verification": {}
+      }
+    },
+    "security": {
+      "tls": {}
+    },
+    "timeouts": {},
+    "version": "3.0.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "groups": [
+          "sudo",
+          "docker"
+        ],
+        "name": "ait",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhwnLpIaJeiQGm+wa9P1x680WNW/byrh3uF3cLmjnA6nq5FEgZE3kvxHB0DPLNb9FebcSi/efwOzkhTiIxEWjB9wbtGNl/76Q0p6yBhqNFVXb2YZDLT171wa4jUv4TaD9voKIhFwR44FnCbJO7+KQK8gN7HoswjoLiLLUM/tIEEn1FMZ9bhx8drmIkvqidHz/F2TLrvcPGELMwIgLqlSHJT0Q1ZGtO5ZJypzuMFA1/dTMl60KZV+6vYCI0TMIYgHZFPM83APvqfNUqCF70zm+jxZtxRJBk8HSdbMih5pUaWb+sKPg4hCodbV+4nnIsDET5PH6kM77l5uP3bNtrlhdBw== laszlo.kulcsar@lhsystems.com"
+ ],
+        "shell": "/bin/bash"
+      }
+    ]
+  },
+  "storage": {},
+  "systemd": {}
+}
